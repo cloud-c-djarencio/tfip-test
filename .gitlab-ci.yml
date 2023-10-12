@@ -3,5 +3,8 @@ stages:
 
 echo-text:
   stage: echo-text
+  image: 
+    name: 283563970713.dkr.ecr.eu-central-1.amazonaws.com/aws-cli-tools:v1.1.4
+    entrypoint: [""]
   script:
     - echo "Hello World"
